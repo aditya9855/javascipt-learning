@@ -106,3 +106,8 @@ let leadTime = Math.floor(deliveryDate-orderDate) / 86400000;
 
 console.log(leadTime);
 document.getElementById("date").innerHTML = leadTime;
+
+
+var id = [5, 1, 3, 7];
+
+console.log(id.sort);
