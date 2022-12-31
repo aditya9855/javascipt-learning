@@ -107,7 +107,7 @@ let leadTime = Math.floor(deliveryDate-orderDate) / 86400000;
 console.log(leadTime);
 document.getElementById("date").innerHTML = leadTime;
 
-// jquery has been started
+// jquery has been start
 
 $("#btn99").click(function(){
   $(".example").hide();
@@ -120,6 +120,7 @@ $("#btn991").click(function(){
   $("#btn991").hide();
 
 });
+
 
 function add(){
   let name = document.getElementById("name").value;
