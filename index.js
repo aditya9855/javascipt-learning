@@ -107,7 +107,30 @@ let leadTime = Math.floor(deliveryDate-orderDate) / 86400000;
 console.log(leadTime);
 document.getElementById("date").innerHTML = leadTime;
 
+// jquery has been started
 
-var id = [5, 1, 3, 7];
+$("#btn99").click(function(){
+  $(".example").hide();
+  $("#btn99").hide();
 
-console.log(id.sort);
+});
+$("#btn991").click(function(){
+  $(".example").show();
+  
+  $("#btn991").hide();
+
+});
+
+function add(){
+  let name = document.getElementById("name").value;
+  if(name == ""){
+    document.getElementById("eror").innerHTML = "please enter value";
+
+
+  }else{
+    let aditya = document.getElementById("name").value;
+    document.getElementById("box").innerHTML = aditya;
+
+    
+  }
+}
