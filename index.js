@@ -135,3 +135,20 @@ function add(){
     
   }
 }
+
+
+///
+
+
+
+function add1(){
+  // let newELement = document.createElement('inout');
+  // document.getElementById('inout1').appendChild(newELement);
+  let arrary = document.createElement('inout1').value;
+  console.log(arrary);
+ arrary=document.getElementById('inout');
+  arrary.appendChild(arrary);
+
+
+document.getElementById('inout').innerHTML = arrary;
+}
