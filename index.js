@@ -153,3 +153,4 @@ function add1(){
 document.getElementById('inout').innerHTML = arrary;
 }
 
+document.getElementById('ghg').onclick = aditya;
