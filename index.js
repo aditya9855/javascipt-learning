@@ -191,9 +191,11 @@ const max = (a,b) => {
 
 const arr = [2,3,5,2,4,3,2];
 
-const sum = (a,b) => {
-  arr.reduce(a+b);
-}
+// const sum = (arr) => {
+//   arr.reduce;
+// }
+
+const sum = arr.reduce((a, b) => a + b);
 
 
 
