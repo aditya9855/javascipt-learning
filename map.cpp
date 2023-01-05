@@ -6,11 +6,7 @@ int main(){
 	mpx["harry"]= 98;
 	mpx["harry1"]= 55;
 	mpx["harry1"]= 85;
-
-	map<string, int> :: iterator iter;
-
-	for( iter=mpx.begin(); iter!=mpx.end(); iter++){
-		cout<<mpx.first(1)<<endl;
+    for(auto: it){
+        cout<<
     }
-
 }

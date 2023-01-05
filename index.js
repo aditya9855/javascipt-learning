@@ -154,3 +154,47 @@ document.getElementById('inout').innerHTML = arrary;
 }
 
 document.getElementById('ghg').onclick = aditya;
+
+// arrow function
+// An arrow function return undefined
+const empty =() =>{
+
+};
+
+// if else in const array function
+let a;
+
+
+// const simple = () =>
+//   a>15 ? 15:a;
+
+// this program will not run if you not pass the refrence value// in our case its a
+
+const simple = (a) =>
+  a>15 ? 15:a;
+
+simple(16);
+simple(15);
+
+// maximum number in an const arrow funtion
+
+const max = (a,b) => {
+  if(a>b){
+    console.log(a);
+
+  }else{
+    console.log(b);
+  }
+}
+
+// Easy array filtering and mapping
+
+const arr = [2,3,5,2,4,3,2];
+
+const sum = (a,b) => {
+  arr.reduce(a+b);
+}
+
+
+
+
