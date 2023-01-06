@@ -234,4 +234,82 @@ class C{
   }
 }
 
+// const arow function dont havbe thier own arogument 
+
+const argument = [1,2,4];
+const arir =()=> argument[0];
+
+arir(); // its return 1'
+
+// const arrow function cannot be use  as construtor
+// it will throw an error when it gets called new see the below
+
+const foot = () =>{
+
+}
+// error foot is not a constructor
+const foo = new foot();
+
+console.log("prototype in foo",foot);
+
+// line break before arrow;
+// const func = (a,b,c)
+//  => 1; we cannot declare like that it will throw an error;
+
+const func = (a,b,c) => 1; 
+func(2,34,44);// output is 1;
+
+//For the purpose of formatting, you may put the line break after the arrow or use parentheses/braces around the function body,
+
+const dun = (a,b,c) =>
+1;
+dun(2,3,4);
+
+const dum2 = (a,b,c) => (1);
+dum2(3,4,2);
+
+const dunc1 = (a,b,c) => {
+  if(a>c && a>b){
+    a=b+c;
+
+  }else{
+    return 2;
+  }
+  
+
+
+}
+
+dunc1();;// return undefinded because we are not intialize the a,b,c first declare then use 
+
+
+const max4 = (a,b) => a>b?a:b;
+
+
+
+// const sum4 = arr.reduce((a,b) =>a+b);
+
+// higher order function in javascript 
+const arr4 = [5,4,3,4,4];
+// map funciton is used to transformed in an array
+// transorm an array mean each and every value of the array has to be trancform to binary double triple using map function
+const arrrr = [5,4,3,4,4];
+function double(x){
+  return x*2;
+
+}
+
+const output  =  arrrr.map(double);
+
+
+
+
+
+
+
+
+
+
+
+
 
