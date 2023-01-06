@@ -198,5 +198,40 @@ const arr = [2,3,5,2,4,3,2];
 const sum = arr.reduce((a, b) => a + b);
 
 
+const materials = ['Hydrogen','Helium','Lithium','Beryllium'];
+
+console.log(materials.map(materials => materials.length));
+
+
+const arrow = (a) => {
+  return a+100;
+
+}
+
+arrow(13); // calling the function 113 output without calling the funvtion the function is not going to excute the task
+
+
+const summ = (a,b) =>{
+  const chuck = 65;
+  return chuck + a + b; //<-- example of block scope ;
+
+}
+
+sum(35,73); // 173
+// arrow funtion is better than convention method and not make each time funtion
+
+
+//rrow function expressions should only be used for non-method functions because they do not have their own this.
+
+class C{
+  a = 8;
+  constructor(){
+    this.method = this.method.bound(this);
+  }
+  method(){
+    console.log(this.a);
+
+  }
+}
 
 
