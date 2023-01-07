@@ -293,13 +293,48 @@ const max4 = (a,b) => a>b?a:b;
 const arr4 = [5,4,3,4,4];
 // map funciton is used to transformed in an array
 // transorm an array mean each and every value of the array has to be trancform to binary double triple using map function
-const arrrr = [5,4,3,4,4];
+const maper = [5,4,3,4,4];
 function double(x){
   return x*2;
 
 }
+function triple(x){
+  return x*3;
 
-const output  =  arrrr.map(double);
+}
+
+const outpu  =  maper.map(double);
+const outpue  =  maper.map(double);
+console.log(outpu);
+console.log(outpue);
+
+// binary conversion
+
+function binary (x){
+  return x.toString(2);
+
+}
+
+const outpute = maper.map(binary);
+console.log(outpute);
+
+// filter function is used to filter the value in an array
+
+const arrya = [3,4,2,4,5];
+
+// filter odd number;
+function  isOdd(x){
+  return x%2!=0; // check the other statment if u want so like greater than even odd less than
+
+
+
+}
+const output3 = arrya.filter(isOdd)
+console.log(output3);
+
+
+// reduce function reading ;
+
 
 
 
