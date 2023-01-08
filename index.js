@@ -345,6 +345,24 @@ console.log(output3);
 
 
 
+function myFun(a, b, ...manyMoreArgs) {
+  console.log("a", a);
+  console.log("b", b);
+  console.log("manyMoreArgs", manyMoreArgs);
+}
+
+myFun("one", "two", "three", "four", "five", "six");
 
 
+var radiobutton = document.getElementById('product');
 
+for(var ar =0; a<radioItems.length; ar++){
+  radioItems[a].onchange = function(){
+    for(var b=0; b<radioItems.length; b++){
+      if(radioItems[b].checked){
+        var selectedRadio = radioItems[b].value;
+        
+      }
+    }
+  }
+}
